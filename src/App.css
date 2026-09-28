@@ -1,0 +1,85 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+nav {
+  background: #0f172a;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00dfc4;
+}
+
+/* Sections */
+section {
+  padding: 80px 20px;
+}
+
+/* Home */
+#home {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#home h2 {
+  color: #00dfc4;
+  margin-bottom: 10px;
+}
+
+/* About */
+#about {
+  background: #1e293b;
+  text-align: center;
+}
+
+#about p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Projects */
+#project {
+  background: #0f172a;
+}
+
+.card {
+  background: #1e293b;
+  margin: 20px auto;
+  padding: 20px;
+  width: 60%;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
